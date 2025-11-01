@@ -28,16 +28,16 @@ const Projects = () => {
       image: bmi_calculate, // ✅ make sure you imported this image at the top
     },
 
-    {
-      title: "AI-Integrated App",
-      description:
-        "Intelligent web application leveraging AI for natural language processing, sentiment analysis, and predictive features.",
-      tech: ["Java", "Spring Boot", "React", "AI/ML"],
-      github: "#",
-      demo: "https://wallet-loan.netlify.app/",
-      // fallback to ecomm image — replace with a specific image file if you add one to src/components/image
-      image: wallet_loan,
-    },
+ {
+  title: "Wallet Loan Website",
+  description:
+    "A modern and responsive wallet loan website built using HTML, CSS, and Bootstrap. It features loan plan sections, EMI calculators, and a clean user-friendly interface optimized for all devices.",
+  tech: ["HTML", "CSS", "Bootstrap"],
+  github: "#",
+  demo: "https://wallet-loan.netlify.app/",
+  image: wallet_loan, // ✅ make sure to import this image
+},
+
   ];
 
   return (
