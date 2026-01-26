@@ -30,7 +30,7 @@ const Contact = () => {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "www.linkedin.com",
+      url: "https://www.linkedin.com/in/sriram-software-dev",
       color: "hover:text-blue-500",
     },
     {
