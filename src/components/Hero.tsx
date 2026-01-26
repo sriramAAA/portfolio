@@ -48,7 +48,7 @@ const Hero = () => {
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 glass-card hover:scale-110 transition-transform">
               <Github className="w-6 h-6" />
             </a>
-            <a href="www.linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 glass-card hover:scale-110 transition-transform">
+            <a href="https://www.linkedin.com/in/sriram-software-dev" target="_blank" rel="noopener noreferrer" className="p-3 glass-card hover:scale-110 transition-transform">
               <Linkedin className="w-6 h-6" />
             </a>
             <a href="mailto:sriram.coder2004@gmail.com" className="p-3 glass-card hover:scale-110 transition-transform">
