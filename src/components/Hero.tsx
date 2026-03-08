@@ -6,11 +6,11 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated gradient background */}
       <div className="absolute inset-0 hero-gradient opacity-20" />
-      
+
       {/* Floating orbs */}
       <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/30 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }} />
-      
+
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           <div className="space-y-4">
@@ -26,16 +26,16 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-wrap gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="group bg-gradient-to-r from-primary to-secondary hover:shadow-lg hover:shadow-primary/50 transition-all duration-300"
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View My Work
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               variant="outline"
               className="border-2"
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
@@ -51,9 +51,12 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/sriram-software-dev" target="_blank" rel="noopener noreferrer" className="p-3 glass-card hover:scale-110 transition-transform">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:sriram.coder2004@gmail.com" className="p-3 glass-card hover:scale-110 transition-transform">
-              <Mail className="w-6 h-6" />
-            </a>
+
+
+
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sriram.coder2004@gmail.com" target="_blank" rel="noopener noreferrer" className="p-3 glass-card hover:scale-110 transition-transform">
+              <Mail className="w-6 h-6" /></a>
+
           </div>
 
         </div>
